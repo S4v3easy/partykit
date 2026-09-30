@@ -1,7 +1,7 @@
 /** Calculates the n-th Fibonacci number. */
 
 // @ts-expect-error we should fix this but I don't know how
-export function fib(n: i32): i32 {
+function fib(n: i32): i32 {
   let a = 0,
     b = 1;
   if (n > 0) {
